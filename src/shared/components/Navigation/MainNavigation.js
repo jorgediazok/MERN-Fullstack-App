@@ -6,6 +6,8 @@ import NavLinks from './NavLinks';
 import SideDrawer from './SideDrawer';
 import './MainNavigation.css';
 
+//This is the main navigation
+
 const MainNavigation = (props) => {
   return (
     <React.Fragment>
