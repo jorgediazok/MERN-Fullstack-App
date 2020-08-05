@@ -25,6 +25,8 @@ const App = () => {
     setIsLoggedIn(false);
   }, []);
 
+  let routes;
+
   return (
     <AuthContext.Provider
       value={{ isLoggedIn: isLoggedIn, login: login, logout: logout }}
