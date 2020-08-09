@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 import { AuthContext } from '../../context/auth-context';
 import './NavLinks.css';
-import Auth from '../../../user/pages/Auth';
 
 const NavLinks = (props) => {
   const auth = useContext(AuthContext);
