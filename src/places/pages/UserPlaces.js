@@ -9,6 +9,7 @@ import { useHttpClient } from '../../shared/hooks/http-hook';
 const UserPlaces = () => {
   const [loadedPlaces, setLoadedPlaces] = useState();
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
+  // @ts-ignore
   const userId = useParams().userId;
 
   useEffect(() => {
@@ -27,6 +28,7 @@ const UserPlaces = () => {
 
   const placeDeletedHandler = (deletedPlaceId) => {
     setLoadedPlaces((prevPlaces) =>
+      // @ts-ignore
       prevPlaces.filter((place) => place.id !== deletedPlaceId)
     );
   };
