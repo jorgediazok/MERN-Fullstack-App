@@ -114,6 +114,7 @@ const UpdatePlace = () => {
             validators={[VALIDATOR_REQUIRE]}
             errorText="Please enter a valid title."
             onInput={inputHandler}
+            // @ts-ignore
             initialValue={loadedPlace.title}
             initialValid={true}
           />
@@ -124,6 +125,7 @@ const UpdatePlace = () => {
             validators={[VALIDATOR_MINLENGTH(5)]}
             errorText="Please enter a valid description (min 5 characters)."
             onInput={inputHandler}
+            // @ts-ignore
             initialValue={loadedPlace.description}
             initialValid={true}
           />
