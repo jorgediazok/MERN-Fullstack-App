@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useContext } from 'react';
 
 import Card from '../../shared/components/UIElements/Card';
@@ -79,7 +80,7 @@ const Auth = () => {
             'Content-Type': 'application/json',
           }
         );
-        auth.login(responseData.user.id);
+        auth.login(responseData.userId, responseData.token);
       } catch (err) {
         console.log(err);
       }
@@ -95,7 +96,7 @@ const Auth = () => {
           'POST',
           formData
         );
-        auth.login(responseData.user.id);
+        auth.login(responseData.userId, responseData.token);
       } catch (err) {
         console.log(err);
       }
