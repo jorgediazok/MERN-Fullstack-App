@@ -36,6 +36,16 @@
   height: 100%;
 }
 
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-navigation__logo {
+  max-height: 50px;
+}
+
 @media (min-width: 768px) {
   .main-navigation__menu-btn {
     display: none;
