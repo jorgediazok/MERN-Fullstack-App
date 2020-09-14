@@ -24,6 +24,7 @@ const Users = () => {
 
   return (
     <React.Fragment>
+      <h4 className="users-title">WHERE ARE YOU? JOIN OUR COMMUNITY</h4>
       <ErrorModal error={error} onClear={clearError} />
       {isLoading && (
         <div className="center">

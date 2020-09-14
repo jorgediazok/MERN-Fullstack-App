@@ -13,6 +13,12 @@ body {
   background: #4d4d4d;
 }
 
+.users-title {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.3em;
+}
+
 .slide-in-left-enter {
   transform: translateX(-100%);
 }

@@ -38,7 +38,7 @@ const MainNavigation = (props) => {
         </button>
         <div className="navbar-container">
           <h1 className="main-navigation__title">
-            <Link to="/">IAmHere App</Link>
+            <Link to="/">I Am Here</Link>
           </h1>
           <img src={Logo} alt="logo" className="main-navigation__logo" />
         </div>

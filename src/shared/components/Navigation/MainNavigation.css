@@ -40,10 +40,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .main-navigation__logo {
-  max-height: 50px;
+  max-height: 40px;
+  margin-left: 10px;
 }
 
 @media (min-width: 768px) {

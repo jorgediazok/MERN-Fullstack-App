@@ -51,6 +51,7 @@ export const useForm = (initialInputs, initialFormValidity) => {
   }, []);
 
   const setFormData = useCallback((inputData, formValidity) => {
+    // @ts-ignore
     dispatch({
       type: 'SET_DATA',
       inputs: inputData,
